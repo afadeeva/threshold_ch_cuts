@@ -49,6 +49,7 @@ ubU = int(sys.argv[-3])
 ubV = int(sys.argv[-2])
 ubY = int(sys.argv[-1])
 
+compAlgo.SetPolarity(ubU,ubV,ubY)
 compAlgo.SetCompressThresh(threshU,threshV,threshY)
 compAlgo.SetMaxADC(4095)
 compAlgo.SetUVYplaneBuffer(7,8,7,8,7,8)

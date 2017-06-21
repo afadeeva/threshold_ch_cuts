@@ -75,6 +75,6 @@ my_proc.add_process(compAna)
 
 # Let's run it.
 
-my_proc.run(0,1)
+my_proc.run(0,20)
 
 # done!
